@@ -287,10 +287,9 @@
   font-size: 18px;
   font-weight: normal;
 }
-.footer__column_list {
-  padding: 0;
+.footer__column_content_info {
   margin: 0;
-  list-style: none;
+  padding: 0;
 }
 .footer__column-heading {
   padding: 0;
@@ -315,6 +314,9 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 .footer__social_link {
   padding-left: 26px;
