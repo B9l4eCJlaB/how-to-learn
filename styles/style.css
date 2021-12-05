@@ -18,6 +18,10 @@
   align-items: center;
   /* выше установили ограничения для секции */
 }
+.logo {
+  width: 183px;
+  height: 32px;
+}
 .logo_place_header {
   position: absolute;
   top: 30px;
@@ -33,6 +37,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  z-index: 3;
 
 }
 .header__subtitle {
@@ -44,6 +49,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 3;
 }
 .header__link {
   color: #2f80ed;
@@ -157,13 +163,13 @@
   font-weight: bold;
 }
 .table__text {
-  margin: 0;
+  margin: 20px 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
-.table__text_down {
-  margin-top: 20px;
+.table__text:last-child {
+  margin-bottom: 0;
 }
 .feynman {
   padding-top: 100px;
@@ -300,7 +306,7 @@
   font-weight: bold;
   color: #fff;
 }
-.footer__column_link {
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -308,7 +314,7 @@
   text-decoration: none;
   transition: .3s all ease;
 }
-.footer__column_link:hover {
+.footer__column-link:hover {
   color: #2f80ed;
 }
 .footer__column-links {
@@ -318,11 +324,11 @@
   margin: 0;
   list-style: none;
 }
-.footer__social_link {
+.footer__social-icon {
   padding-left: 26px;
   position: relative;
   background-repeat: no-repeat;
-  background-position: bottom 8px left 0;
+  background-position: bottom 3px left 0;
 }
 
 .footer__social-icon_facebook {
